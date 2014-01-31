@@ -11,7 +11,7 @@ public class Main {
 		stdin.close();
 		
 		long NthPrimeToFind = Long.parseLong(NthPrime);
-		if (NthPrimeToFind <= 0){
+		if (NthPrimeToFind <= 0 || NthPrime.contains(".")){
 			System.out.println("Enter a positive number greater than 0!");
 			return;
 		}
